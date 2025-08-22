@@ -266,7 +266,7 @@ const moveElement = (arr, fromIndex, toIndex) => {
 };
 
 watch(
-  [() => props.tasks, filterProjects],
+  [() => props.tasks],
   ([newTasks]) => {
     if (newTasks) {
       localItems.value = [...newTasks];

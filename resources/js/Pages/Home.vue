@@ -154,14 +154,14 @@ onMounted(async () => {
 });
 
 const toggleModal = (modalType) => {
-  // Logic to open modal based on type
   openModal.value.modalName = modalType.name;
 
   switch (modalType.name) {
     case "projectModal":
+      // Logic to open project modal
       const { project } = modalType;
       openModal.value.edit = project ?? {};
-      // Logic to open project modal
+
       if (modalType?.open) {
         openModal.value.title = project ? "Edit Project" : "Add New Project";
         openModal.value.modalForm = markRaw(ProjectForm);
@@ -176,7 +176,7 @@ const toggleModal = (modalType) => {
       // Logic to open task modal
       const { task } = modalType;
       openModal.value.edit = task ?? {};
-      // Logic to open project modal
+
       if (modalType?.open) {
         openModal.value.title = task ? "Edit Task" : "Add New Task";
         openModal.value.open = true;
@@ -184,9 +184,7 @@ const toggleModal = (modalType) => {
         document.body.classList.add("modal-open");
       } else {
         document.body.classList.remove("modal-open");
-        openModal.value.open = false;
-        openModal.value.modalForm = null;
-        openModal.value.title = null;
+        openModal.value = { open: false };
       }
       break;
     default:

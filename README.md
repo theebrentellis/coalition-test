@@ -2,12 +2,15 @@
 
 Follow these steps to get your Laravel project running locally with [Laravel Herd](https://herd.laravel.com).
 
+PHP: 8.3
+Node: 22
+
 ---
 
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/theebrentellis/coalition-test.git
 cd coalition-test
 ```
 

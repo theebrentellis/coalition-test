@@ -51,7 +51,7 @@
                   <transition name="slide">
                     <small
                       v-show="toggle[project.id] ?? false"
-                      class="text-muted mt-2"
+                      class="text-muted mt-2 me-1"
                     >
                       <i class="bi bi-info-circle"></i>
                       {{ project.description }}
