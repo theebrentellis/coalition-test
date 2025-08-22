@@ -1,0 +1,39 @@
+// This file is part of the Coalition project.
+
+@use "bootstrap/scss/bootstrap";
+// Importing Bootstrap's SCSS files
+
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+
+// Import the Sass files as usual
+@import "bootstrap-icons/font/bootstrap-icons";
+
+.slide-enter-active,
+.slide-leave-active {
+    transition: all 0.3s ease;
+}
+.slide-enter-from,
+.slide-leave-to {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+.slide-enter-to,
+.slide-leave-from {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Transition classes */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+.fade-enter-to,
+.fade-leave-from {
+    opacity: 1;
+}

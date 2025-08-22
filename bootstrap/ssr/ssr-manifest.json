@@ -1,0 +1,26 @@
+{
+  "\u0000plugin-vue:export-helper": [
+    "/build/assets/_plugin-vue_export-helper-1tPrXgE0.js"
+  ],
+  "\u0000vite/dynamic-import-helper.js": [],
+  "resources/js/Pages/Home.vue": [
+    "/build/assets/Home-Bso7qlsz.js"
+  ],
+  "resources/js/Pages/Modal.vue": [
+    "/build/assets/Modal-n-UsQpyp.js"
+  ],
+  "resources/js/Pages/Project.vue": [
+    "/build/assets/Project-BQxgXNRE.js"
+  ],
+  "resources/js/Pages/ProjectForm.vue": [
+    "/build/assets/ProjectForm-ChQTgPGN.js"
+  ],
+  "resources/js/Pages/Task.vue": [
+    "/build/assets/Task-CSpmV3Jp.js"
+  ],
+  "resources/js/Pages/TaskModal.vue": [
+    "/build/assets/TaskModal-BmMf-Plc.js"
+  ],
+  "resources/js/app.js": [],
+  "resources/js/bootstrap.js": []
+}
